@@ -6,7 +6,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/mahnoorbilal-exe/webapp-selenium-tests.git'
+                git 'https://github.com/mahnoorbilal-exe/selenium-tests.git'
             }
         }
 
