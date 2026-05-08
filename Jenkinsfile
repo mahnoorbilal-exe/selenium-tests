@@ -6,7 +6,6 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main',
                 git 'https://github.com/mahnoorbilal-exe/selenium-tests.git'
             }
         }
